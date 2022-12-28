@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsFormsApp2.Start">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Start.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.Menu" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAIAAICIgAAEAAACACgACAAAYAABAAHIAAAAAIgA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="translation" />
+      <Property Name="оПрограмме" />
+      <Property Name="Julia" />
+      <Property Name="Mandelbrot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.translation" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAQAACAAABAAAACAAAACAAEIAAAAACAAAAAAAAA=</HashCode>
+      <FileName>translation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.оПрограмме" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSAAAhQAACAAABAAAACAAAACAIEMAAAAAAAAAABAAAA=</HashCode>
+      <FileName>оПрограмме.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.Mandelbrot" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUQAIAEAErIAkgAhhAKgARiCAAMIIQQAwCRIC4BRAAA=</HashCode>
+      <FileName>Mandelbrot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+      <Property Name="DrawPx" />
+      <Property Name="Numbers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.Julia" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQAAACQEiIAggAgBEKAARjCAAMIIQAAgCBAC4BBAAA=</HashCode>
+      <FileName>Julia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+      <Property Name="DrawPx" />
+      <Property Name="Numbers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.DrawPx" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>models\DrawPx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsFormsApp2.Numbers" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAQAABAAAAAA=</HashCode>
+      <FileName>models\Numpers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WindowsFormsApp2.IDraw" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controllers\IDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WindowsFormsApp2.INumbers" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>controllers\INumbers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
